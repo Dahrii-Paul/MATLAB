@@ -15,12 +15,13 @@ sMatrix = [ 1 0 ; 0 1 ; -1 0 ; 0 -1];
 
 time = 0;
 step = 0;
-%for step = 1:1:numSteps
-while (time < totalTime)
+
+for step = 1:1:numSteps
+%while (time < totalTime)
     % calculate propensities
     nM = state(1);
     nP = state(2);
-    propensitiesVec = [kr   kp*nM   dr*nM   kp*nP]
+    propensitiesVec = [kr   kp*nM   dr*nM   dp*nP]
     
     % calculate totalPropensity
     totalPropensity = sum(propensitiesVec);
@@ -39,16 +40,14 @@ while (time < totalTime)
     %end
     %nextReaction = rxn;
     
-    prob = rand(1,1)*totalPropensity 
-    cumulativePropensity = cumsum(propensitiesVec)
-    for rxn = 1:1:nR
-        if prob <= cumulativePropensity(rxn)
-            break
-        end
+    prob = rand(1,1)*totalPropensity ;
+    cumulativePropensity = cumsum(propensitiesVec) ;
+    rxn = 1 ;
+    while ( prob > cumulativePropensity(rxn))
+        rxn = rxn + 1 ;
     end
-    nextReaction = rxn
-    
-            
+    nextReaction = rxn ;
+                
     % perform nextReaction on state vector
     state = state + sMatrix(nextReaction,:);
     time = time + waitTime;
