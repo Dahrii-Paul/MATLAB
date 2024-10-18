@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner" metaid="_492719" level="2" version="4">
+<model metaid="_000001" id="BIOMD0000000010" name="Kholodenko2000 - MAPK feedback">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+<div class="dc:title">Kholodenko2000 - MAPK feedback</div>
+<div class="dc:description">
+<p>Negative feedback and ultrasensitivity can bring about oscillations in the mitogen-activated protein kinase cascades.</p>
+</div>
+<div class="dc:bibliographicCitation">
+<p>This model is described in the article:</p>
+<div class="bibo:title">
+<a href="http://identifiers.org/pubmed/10712587" title="Access to this publication">Negative feedback and ultrasensitivity can bring about oscillations in the mitogen-activated protein kinase cascades.</a>
+</div>
+<div class="bibo:authorList">Kholodenko BN</div>
+<div class="bibo:Journal">Eur. J. Biochem. 2000; 267(6):1583-8</div>
+<p>Abstract:</p>
+<div class="bibo:abstract">
+<p>Functional organization of signal transduction into protein phosphorylation cascades, such as the mitogen-activated protein kinase (MAPK) cascades, greatly enhances the sensitivity of cellular targets to external stimuli. The sensitivity increases multiplicatively with the number of cascade levels, so that a tiny change in a stimulus results in a large change in the response, the phenomenon referred to as ultrasensitivity. In a variety of cell types, the MAPK cascades are imbedded in long feedback loops, positive or negative, depending on whether the terminal kinase stimulates or inhibits the activation of the initial level. Here we demonstrate that a negative feedback loop combined with intrinsic ultrasensitivity of the MAPK cascade can bring about sustained oscillations in MAPK phosphorylation. Based on recent kinetic data on the MAPK cascades, we predict that the period of oscillations can range from minutes to hours. The phosphorylation level can vary between the base level and almost 100% of the total protein. The oscillations of the phosphorylation cascades and slow protein diffusion in the cytoplasm can lead to intracellular waves of phospho-proteins.</p>
+</div>
+</div>
+<div class="dc:publisher">
+<p>This model is hosted on        <a href="http://www.ebi.ac.uk/biomodels/">BioModels Database</a>
+<a href="http://identifiers.org/biomodels.db/BIOMD0000000010">BIOMD0000000010</a>
+</p>
+<p>To cite BioModels Database, please use:        <a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>
+</p>
+</div>
+<div class="dc:license">
+<p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication">CC0 Public Domain Dedication</a>
+</p>
+</div>
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:modelVersion>4.0</celldesigner:modelVersion>
+<celldesigner:modelDisplay sizeX="542" sizeY="420"/>
+<celldesigner:listOfCompartmentAliases>
+<celldesigner:compartmentAlias id="ca0" compartment="uVol">
+<celldesigner:class>SQUARE</celldesigner:class>
+<celldesigner:bounds x="25.0" y="25.0" w="467.0" h="345.0"/>
+<celldesigner:namePoint x="245.5" y="333.5"/>
+<celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
+<celldesigner:paint color="ffcccc00" scheme="Color"/>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:compartmentAlias>
+</celldesigner:listOfCompartmentAliases>
+<celldesigner:listOfComplexSpeciesAliases/>
+<celldesigner:listOfSpeciesAliases>
+<celldesigner:speciesAlias id="sa0" species="MKKK" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="246.0" y="288.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="221.0" y="263.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa1" species="MKKK_P" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="264.0" y="186.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="239.0" y="161.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa2" species="MKK" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="370.0" y="125.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="345.0" y="100.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa3" species="MKK_P" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="269.0" y="109.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="244.0" y="84.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa4" species="MKK_PP" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="168.0" y="92.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="143.0" y="67.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa5" species="MAPK" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="67.0" y="67.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="42.0" y="42.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa6" species="MAPK_P" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="117.0" y="153.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="92.0" y="128.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa7" species="MAPK_PP" compartmentAlias="ca0">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="163.0" y="227.0" w="80.0" h="40.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="138.0" y="202.0"/>
+<celldesigner:boxSize width="80.0" height="40.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+</celldesigner:listOfSpeciesAliases>
+<celldesigner:listOfGroups/>
+<celldesigner:listOfProteins>
+<celldesigner:protein id="pr1" name="MAPKKK" type="GENERIC"/>
+<celldesigner:protein id="pr2" name="MAPKKK-P" type="GENERIC"/>
+<celldesigner:protein id="pr3" name="MAPKK" type="GENERIC"/>
+<celldesigner:protein id="pr4" name="MAPKK-P" type="GENERIC"/>
+<celldesigner:protein id="pr5" name="MAPKK-PP" type="GENERIC"/>
+<celldesigner:protein id="pr6" name="MAPK" type="GENERIC"/>
+<celldesigner:protein id="pr7" name="MAPK-P" type="GENERIC"/>
+<celldesigner:protein id="pr8" name="MAPK-PP" type="GENERIC"/>
+</celldesigner:listOfProteins>
+<celldesigner:listOfGenes/>
+<celldesigner:listOfRNAs/>
+<celldesigner:listOfAntisenseRNAs/>
+<celldesigner:listOfLayers/>
+<celldesigner:listOfBlockDiagrams/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_000001">
+<dc:creator>
+<rdf:Bag>
+<rdf:li rdf:parseType="Resource">
+<vCard:N rdf:parseType="Resource">
+<vCard:Family>Sauro</vCard:Family>
+<vCard:Given>Herbert</vCard:Given>
+</vCard:N>
+<vCard:EMAIL>Herbert_Sauro@kgi.edu</vCard:EMAIL>
+<vCard:ORG rdf:parseType="Resource">
+<vCard:Orgname>Keck Graduate Institute</vCard:Orgname>
+</vCard:ORG>
+</rdf:li>
+</rdf:Bag>
+</dc:creator>
+<dcterms:created rdf:parseType="Resource">
+<dcterms:W3CDTF>2005-02-12T00:18:12Z</dcterms:W3CDTF>
+</dcterms:created>
+<dcterms:modified rdf:parseType="Resource">
+<dcterms:W3CDTF>2012-12-11T16:17:16Z</dcterms:W3CDTF>
+</dcterms:modified>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/biomodels.db/MODEL6615119181"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000010"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/pubmed/10712587"/>
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqbiol:occursIn>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/taxonomy/8355"/>
+</rdf:Bag>
+</bqbiol:occursIn>
+<bqbiol:isHomologTo>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_634"/>
+</rdf:Bag>
+</bqbiol:isHomologTo>
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0000165"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfUnitDefinitions>
+<unitDefinition metaid="metaid_0000022" id="substance" name="nanomole">
+<listOfUnits>
+<unit metaid="_653149" kind="mole" scale="-9"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="volume" id="volume" name="volume">
+<listOfUnits>
+<unit metaid="CDMT00001" kind="litre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="area" id="area" name="area">
+<listOfUnits>
+<unit metaid="CDMT00002" kind="metre" exponent="2"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="length" id="length" name="length">
+<listOfUnits>
+<unit metaid="CDMT00003" kind="metre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="time" id="time" name="time">
+<listOfUnits>
+<unit metaid="CDMT00004" kind="second"/>
+</listOfUnits>
+</unitDefinition>
+</listOfUnitDefinitions>
+<listOfCompartments>
+<compartment metaid="default" id="default" size="1" units="volume"/>
+<compartment metaid="_584463" id="uVol" name="uVol" size="1" units="volume" outside="default">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>uVol</celldesigner:name>
+</celldesigner:extension>
+</annotation>
+</compartment>
+</listOfCompartments>
+<listOfSpecies>
+<species metaid="_584475" id="MKKK" name="MAPKKK" compartment="uVol" initialConcentration="90">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr1</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584475">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/P09560"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="_584495" id="MKKK_P" name="MAPKKK-P" compartment="uVol" initialConcentration="10">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr2</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+<celldesigner:listOfCatalyzedReactions>
+<celldesigner:catalyzed reaction="J2"/>
+<celldesigner:catalyzed reaction="J3"/>
+</celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584495">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/P09560"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="_584515" id="MKK" name="MAPKK" compartment="uVol" initialConcentration="280">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr3</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584515">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/Q05116"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="_584535" id="MKK_P" name="MAPKK-P" compartment="uVol" initialConcentration="10">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr4</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584535">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/Q05116"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="_584555" id="MKK_PP" name="MAPKK-PP" compartment="uVol" initialConcentration="10">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr5</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+<celldesigner:listOfCatalyzedReactions>
+<celldesigner:catalyzed reaction="J6"/>
+<celldesigner:catalyzed reaction="J7"/>
+</celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584555">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/Q05116"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="_584575" id="MAPK" name="MAPK" compartment="uVol" initialConcentration="280">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr6</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584575">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/P26696"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="_584595" id="MAPK_P" name="MAPK-P" compartment="uVol" initialConcentration="10">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr7</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584595">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/P26696"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="_584615" id="MAPK_PP" name="MAPK-PP" compartment="uVol" initialConcentration="10">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr8</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+<celldesigner:listOfCatalyzedReactions>
+<celldesigner:catalyzed reaction="J0"/>
+</celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584615">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/uniprot/P26696"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+</listOfSpecies>
+<listOfReactions>
+<reaction metaid="_584635" id="J0" name="MAPKKK activation" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>MAPKKK activation</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MKKK" alias="sa0">
+<celldesigner:linkAnchor position="NNW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MKKK_P" alias="sa1">
+<celldesigner:linkAnchor position="SW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.7148614609571795,-0.036272040302267605 0.7148614609571795,-0.036272040302267605</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="MAPK_PP" aliases="sa7" targetLineIndex="-1,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="MAPK_PP" alias="sa7">
+<celldesigner:linkAnchor position="E"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584635">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.11.1"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0008349"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0000185"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+<bqbiol:isHomologTo>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_525"/>
+</rdf:Bag>
+</bqbiol:isHomologTo>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653161" species="MKKK">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa0</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653173" species="MKKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="_653185" species="MAPK_PP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa7</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+<kineticLaw metaid="_653197">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> V1 </ci>
+<ci> MKKK </ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<plus/>
+<cn type="integer"> 1 </cn>
+<apply>
+<power/>
+<apply>
+<divide/>
+<ci> MAPK_PP </ci>
+<ci> Ki </ci>
+</apply>
+<ci> n </ci>
+</apply>
+</apply>
+<apply>
+<plus/>
+<ci> K1 </ci>
+<ci> MKKK </ci>
+</apply>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001327" id="V1" value="0.1"/>
+<parameter metaid="_001328" id="Ki" value="9"/>
+<parameter metaid="_001329" id="n" value="1"/>
+<parameter metaid="_001331" id="K1" value="10"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584655" id="J1" name="MAPKKK inactivation" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>MAPKKK inactivation</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MKKK_P" alias="sa1">
+<celldesigner:linkAnchor position="SSE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MKKK" alias="sa0">
+<celldesigner:linkAnchor position="NNE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.2701535508637236,-0.013915547024951458 0.2701535508637236,-0.013915547024951458</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584655">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.16"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006470"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0051390"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653209" species="MKKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653221" species="MKKK">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa0</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="_653233">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> V2 </ci>
+<ci> MKKK_P </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK2 </ci>
+<ci> MKKK_P </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001333" id="V2" value="0.25"/>
+<parameter metaid="_001335" id="KK2" value="8"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584675" id="J2" name="phosphorylation of MAPKK" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>phosphorylation of MAPKK</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MKK" alias="sa2">
+<celldesigner:linkAnchor position="WSW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MKK_P" alias="sa3">
+<celldesigner:linkAnchor position="SSE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.1520093185789158,-0.4612696563774019 1.1520093185789158,-0.4612696563774019</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="MKKK_P" aliases="sa1" targetLineIndex="-1,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="MKKK_P" alias="sa1">
+<celldesigner:linkAnchor position="NNE"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584675">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.11.25"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006468"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0004709"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+<bqbiol:isHomologTo>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_614"/>
+</rdf:Bag>
+</bqbiol:isHomologTo>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653245" species="MKK">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa2</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653257" species="MKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa3</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="_653269" species="MKKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+<kineticLaw metaid="_653281">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> k3 </ci>
+<ci> MKKK_P </ci>
+<ci> MKK </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK3 </ci>
+<ci> MKK </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001337" id="k3" value="0.025"/>
+<parameter metaid="_001339" id="KK3" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584695" id="J3" name="phosphorylation of MAPKK-P" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>phosphorylation of MAPKK-P</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MKK_P" alias="sa3">
+<celldesigner:linkAnchor position="SW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MKK_PP" alias="sa4">
+<celldesigner:linkAnchor position="SE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>-0.5146699266503667,-0.4022004889975552 -0.5146699266503667,-0.4022004889975552</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="MKKK_P" aliases="sa1" targetLineIndex="-1,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="MKKK_P" alias="sa1">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584695">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.11.25"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0004709"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006468"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0000186"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+<bqbiol:isHomologTo>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_614"/>
+</rdf:Bag>
+</bqbiol:isHomologTo>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653293" species="MKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa3</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653305" species="MKK_PP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa4</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="_653317" species="MKKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+<kineticLaw metaid="_653329">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> k4 </ci>
+<ci> MKKK_P </ci>
+<ci> MKK_P </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK4 </ci>
+<ci> MKK_P </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001341" id="k4" value="0.025"/>
+<parameter metaid="_001343" id="KK4" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584715" id="J4" name="dephosphorylation of MAPKK-PP" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>dephosphorylation of MAPKK-PP</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MKK_PP" alias="sa4">
+<celldesigner:linkAnchor position="ENE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MKK_P" alias="sa3">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.28832116788321116,-1.3321167883211675 0.28832116788321116,-1.3321167883211675</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584715">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.16"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0051389"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006470"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653341" species="MKK_PP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa4</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653353" species="MKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa3</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="_653365">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> V5 </ci>
+<ci> MKK_PP </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK5 </ci>
+<ci> MKK_PP </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001345" id="V5" value="0.75"/>
+<parameter metaid="_001347" id="KK5" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584735" id="J5" name="dephosphorylation of MAPKK-P" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>dephosphorylation of MAPKK-P</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MKK_P" alias="sa3">
+<celldesigner:linkAnchor position="ENE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MKK" alias="sa2">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.0112570356472794,-0.8217636022514075 1.0112570356472794,-0.8217636022514075</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584735">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.16"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006470"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653377" species="MKK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa3</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653389" species="MKK">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa2</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="_653402">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> V6 </ci>
+<ci> MKK_P </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK6 </ci>
+<ci> MKK_P </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001349" id="V6" value="0.75"/>
+<parameter metaid="_001351" id="KK6" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584755" id="J6" name="phosphorylation of MAPK" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>phosphorylation of MAPK</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MAPK" alias="sa5">
+<celldesigner:linkAnchor position="SE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MAPK_P" alias="sa6">
+<celldesigner:linkAnchor position="NNW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.36550218340611385,-0.09126637554585137 0.36550218340611385,-0.09126637554585137</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="MKK_PP" aliases="sa4" targetLineIndex="-1,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="MKK_PP" alias="sa4">
+<celldesigner:linkAnchor position="W"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584755">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.12.2"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006468"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0004708"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+<bqbiol:hasVersion>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_2247"/>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_136"/>
+</rdf:Bag>
+</bqbiol:hasVersion>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653414" species="MAPK">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa5</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653426" species="MAPK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa6</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="_653438" species="MKK_PP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa4</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+<kineticLaw metaid="_653450">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> k7 </ci>
+<ci> MKK_PP </ci>
+<ci> MAPK </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK7 </ci>
+<ci> MAPK </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001353" id="k7" value="0.025"/>
+<parameter metaid="_001355" id="KK7" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584775" id="J7" name="phosphorylation of MAPK-P" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>phosphorylation of MAPK-P</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MAPK_P" alias="sa6">
+<celldesigner:linkAnchor position="E"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MAPK_PP" alias="sa7">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.16260162601626016,-0.29674796747967447 0.16260162601626016,-0.29674796747967447</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="MKK_PP" aliases="sa4" targetLineIndex="-1,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="MKK_PP" alias="sa4">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584775">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.12.2"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0000187"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0004708"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006468"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+<bqbiol:hasVersion>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_2247"/>
+<rdf:li rdf:resource="http://identifiers.org/reactome/REACT_136"/>
+</rdf:Bag>
+</bqbiol:hasVersion>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653463" species="MAPK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa6</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653475" species="MAPK_PP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa7</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="_653487" species="MKK_PP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa4</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+<kineticLaw metaid="_653499">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> k8 </ci>
+<ci> MKK_PP </ci>
+<ci> MAPK_P </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK8 </ci>
+<ci> MAPK_P </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001357" id="k8" value="0.025"/>
+<parameter metaid="_001359" id="KK8" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584795" id="J8" name="dephosphorylation of MAPK-PP" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>dephosphorylation of MAPK-PP</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MAPK_PP" alias="sa7">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MAPK_P" alias="sa6">
+<celldesigner:linkAnchor position="SSE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.4799139167862272,-0.09253945480631298 0.4799139167862272,-0.09253945480631298</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584795">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.16"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006470"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0000188"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653511" species="MAPK_PP">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa7</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653523" species="MAPK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa6</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="_653535">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> V9 </ci>
+<ci> MAPK_PP </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK9 </ci>
+<ci> MAPK_PP </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001361" id="V9" value="0.5"/>
+<parameter metaid="_001363" id="KK9" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+<reaction metaid="_584815" id="J9" name="dephosphorylation of MAPK-P" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>dephosphorylation of MAPK-P</celldesigner:name>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="MAPK_P" alias="sa6">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="MAPK" alias="sa5">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.6334763948497857,0.020600858369098862 0.6334763948497857,0.020600858369098862</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#_584815">
+<bqbiol:isVersionOf>
+<rdf:Bag>
+<rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.16"/>
+<rdf:li rdf:resource="http://identifiers.org/obo.go/GO%3A0006470"/>
+</rdf:Bag>
+</bqbiol:isVersionOf>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="_653547" species="MAPK_P">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa6</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="_653559" species="MAPK">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa5</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<kineticLaw metaid="_653571">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<apply>
+<divide/>
+<apply>
+<times/>
+<ci> uVol </ci>
+<ci> V10 </ci>
+<ci> MAPK_P </ci>
+</apply>
+<apply>
+<plus/>
+<ci> KK10 </ci>
+<ci> MAPK_P </ci>
+</apply>
+</apply>
+</math>
+<listOfParameters>
+<parameter metaid="_001365" id="V10" value="0.5"/>
+<parameter metaid="_001367" id="KK10" value="15"/>
+</listOfParameters>
+</kineticLaw>
+</reaction>
+</listOfReactions>
+</model>
+</sbml>
